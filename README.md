@@ -112,7 +112,7 @@ string public version = ‘H1.0’; //human 0.1 standard. Just an arbitrary vers
 
 function ERC20Token(
 ) {
-balances[msg.sender] = 18; // Give the creator all initial tokens (100000 for example)
+balances[msg.sender] = 100000000000000000000; // Give the creator all initial tokens (100000 for example)
 totalSupply = NUMBER_OF_TOKENS_HERE; // Update total supply (100000 for example)
 name = “VinhomeToken”; // Set the name for display purposes
 decimals = 0; // Amount of decimals for display purposes
